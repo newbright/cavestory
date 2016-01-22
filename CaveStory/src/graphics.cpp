@@ -21,15 +21,15 @@ SDL_Surface* Graphics::loadImage(const std::string &filePath) {
 }
 
 void Graphics::blitSurface(SDL_Texture* texture, SDL_Rect* sourceRectangle, SDL_Rect* destinationRectangle) {
-	SDL_RenderCopy(this->getRenderer, texture, sourceRectangle, destinationRectangle);
+	SDL_RenderCopy(this->getRenderer(), texture, sourceRectangle, destinationRectangle);
 }
 
 void Graphics::flip() {
-	SDL_RenderPresent(this->getRenderer);
+	SDL_RenderPresent(this->getRenderer());
 }
 
 void Graphics::clear() {
-	SDL_RenderClear(this->getRenderer);
+	SDL_RenderClear(this->getRenderer());
 }
 
 SDL_Renderer* Graphics::getRenderer() const {

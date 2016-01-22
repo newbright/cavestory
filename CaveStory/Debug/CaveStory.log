@@ -1,15 +1,14 @@
-﻿Build started 1/13/2016 1:13:39 PM.
+﻿Build started 1/22/2016 12:31:24 PM.
      1>Project "C:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\CaveStory.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\bnewbright\Projects\dev\CaveStory\include /IC:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\graphics.cpp src\sprite.cpp
-         sprite.cpp
-     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\sprite.cpp(22): error C2084: function 'Sprite::Sprite(void)' already has a body
-                 c:\users\bnewbright\projects\dev\cavestory\cavestory\headers\sprite.h(15) : see previous definition of '{ctor}'
-         graphics.cpp
-     1>c:\users\bnewbright\projects\dev\cavestory\include\sdl2_image\sdl_image.h(27): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
-         Generating Code...
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bnewbright\Projects\dev\CaveStory\Debug\CaveStory.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\bnewbright\Projects\dev\CaveStory\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SDL2main.lib SDL2.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bnewbright\Projects\dev\CaveStory\Debug\CaveStory.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bnewbright\Projects\dev\CaveStory\Debug\CaveStory.lib" /MACHINE:X86 Debug\game.obj
+         Debug\graphics.obj
+         Debug\input.obj
+         Debug\main.obj
+         Debug\sprite.obj
+     1>LINK : fatal error LNK1561: entry point must be defined
      1>Done Building Project "C:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\CaveStory.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.36
+Time Elapsed 00:00:00.09
