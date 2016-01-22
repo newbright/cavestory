@@ -68,6 +68,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\animatedsprite.cpp" />
     <ClCompile Include="src\game.cpp" />
     <ClCompile Include="src\graphics.cpp" />
     <ClCompile Include="src\input.cpp" />
@@ -75,7 +76,9 @@
     <ClCompile Include="src\sprite.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="headers\animatedsprite.h" />
     <ClInclude Include="headers\game.h" />
+    <ClInclude Include="headers\globals.h" />
     <ClInclude Include="headers\graphics.h" />
     <ClInclude Include="headers\input.h" />
     <ClInclude Include="headers\main.h" />
