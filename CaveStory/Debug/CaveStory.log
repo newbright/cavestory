@@ -1,16 +1,20 @@
-﻿Build started 1/22/2016 1:38:04 PM.
+﻿Build started 2/2/2016 12:10:35 PM.
      1>Project "C:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\CaveStory.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\bnewbright\Projects\dev\CaveStory\include /IC:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\animatedsprite.cpp src\graphics.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\bnewbright\Projects\dev\CaveStory\include /IC:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\headers /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\game.cpp src\graphics.cpp src\main.cpp src\player.cpp
+         player.cpp
+     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\player.cpp(22): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\player.cpp(26): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
          graphics.cpp
      1>c:\users\bnewbright\projects\dev\cavestory\include\sdl2_image\sdl_image.h(27): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
-         animatedsprite.cpp
-     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\animatedsprite.cpp(58): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\animatedsprite.cpp(75): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
-     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\animatedsprite.cpp(76): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+         game.cpp
+     1>c:\users\bnewbright\projects\dev\cavestory\cavestory\src\game.cpp(57): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+         Generating Code...
+         Compiling...
+         main.cpp
          Generating Code...
      1>Done Building Project "C:\Users\bnewbright\Projects\dev\CaveStory\CaveStory\CaveStory.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.57
+Time Elapsed 00:00:01.23
